@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MasterNet.Application\MasterNet.Application.csproj" />
     <ProjectReference Include="..\MasterNet.Domain\MasterNet.Domain.csproj" />
     <ProjectReference Include="..\MasterNet.Persistence\MasterNet.Persistence.csproj" />
   </ItemGroup>
