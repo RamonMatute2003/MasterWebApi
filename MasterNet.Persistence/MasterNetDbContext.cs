@@ -15,16 +15,7 @@ public class MasterNetDbContext : IdentityDbContext<AppUser>
     public DbSet<Price> Prices { get; set; }
     public DbSet<Evaluation> Evaluations { get; set; }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    {
-        optionsBuilder.UseSqlite("Data Source=LocalDatabase.db")
-        .LogTo(
-                Console.WriteLine, 
-                [DbLoggerCategory.Database.Command.Name], 
-                Microsoft.Extensions.Logging.LogLevel.Information
-            ).EnableSensitiveDataLogging()
-             .ConfigureWarnings(warnings => warnings.Ignore(RelationalEventId.PendingModelChangesWarning));
-    }
+    public MasterNetDbContext(DbContextOptions<MasterNetDbContext> options) : base(options) { }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

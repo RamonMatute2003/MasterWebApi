@@ -11,14 +11,14 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MasterNet.Persistence.Migrations
 {
     [DbContext(typeof(MasterNetDbContext))]
-    [Migration("20250108092230_MigrationsSecurity")]
-    partial class MigrationsSecurity
+    [Migration("20250621164413_MigracionInicial")]
+    partial class MigracionInicial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
-            modelBuilder.HasAnnotation("ProductVersion", "9.0.0");
+            modelBuilder.HasAnnotation("ProductVersion", "8.0.6");
 
             modelBuilder.Entity("MasterNet.Domain.Course", b =>
                 {
@@ -42,75 +42,75 @@ namespace MasterNet.Persistence.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("19388ded-e92e-40f5-b7ea-a3d4142ac15f"),
-                            Description = "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
-                            PublicationDate = new DateTime(2025, 1, 8, 9, 22, 29, 670, DateTimeKind.Utc).AddTicks(2356),
-                            Title = "Tasty Concrete Table"
+                            Id = new Guid("bbd15c36-7f5c-4669-bae5-eb995c1d3003"),
+                            Description = "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+                            PublicationDate = new DateTime(2025, 6, 21, 16, 44, 12, 987, DateTimeKind.Utc).AddTicks(6526),
+                            Title = "Rustic Rubber Pants"
                         },
                         new
                         {
-                            Id = new Guid("aff45fd0-1824-49df-9120-1b046829e845"),
-                            Description = "The Football Is Good For Training And Recreational Purposes",
-                            PublicationDate = new DateTime(2025, 1, 8, 9, 22, 29, 670, DateTimeKind.Utc).AddTicks(2553),
-                            Title = "Handcrafted Granite Cheese"
-                        },
-                        new
-                        {
-                            Id = new Guid("3222b9e6-412c-4ea6-86e4-a079dbd91b6f"),
-                            Description = "The Football Is Good For Training And Recreational Purposes",
-                            PublicationDate = new DateTime(2025, 1, 8, 9, 22, 29, 670, DateTimeKind.Utc).AddTicks(2564),
-                            Title = "Ergonomic Concrete Pants"
-                        },
-                        new
-                        {
-                            Id = new Guid("a3aab660-c4e0-4a7c-a53a-6496ea48381e"),
-                            Description = "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-                            PublicationDate = new DateTime(2025, 1, 8, 9, 22, 29, 670, DateTimeKind.Utc).AddTicks(2603),
-                            Title = "Unbranded Granite Chicken"
-                        },
-                        new
-                        {
-                            Id = new Guid("31a21aab-908d-4087-b896-2b5b7144ae81"),
-                            Description = "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
-                            PublicationDate = new DateTime(2025, 1, 8, 9, 22, 29, 670, DateTimeKind.Utc).AddTicks(2612),
-                            Title = "Unbranded Steel Soap"
-                        },
-                        new
-                        {
-                            Id = new Guid("90a22150-b541-453a-aa4d-04ca913d7a62"),
-                            Description = "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
-                            PublicationDate = new DateTime(2025, 1, 8, 9, 22, 29, 670, DateTimeKind.Utc).AddTicks(2623),
-                            Title = "Handcrafted Fresh Pizza"
-                        },
-                        new
-                        {
-                            Id = new Guid("e145ffd7-a5e6-44ec-857b-72d87d1aa14b"),
-                            Description = "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-                            PublicationDate = new DateTime(2025, 1, 8, 9, 22, 29, 670, DateTimeKind.Utc).AddTicks(2636),
-                            Title = "Fantastic Wooden Sausages"
-                        },
-                        new
-                        {
-                            Id = new Guid("666df67b-cd32-49e5-8d9d-f4cafec7d917"),
+                            Id = new Guid("eccf2eb4-1e47-4938-bdd9-e48f486f3b7e"),
                             Description = "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
-                            PublicationDate = new DateTime(2025, 1, 8, 9, 22, 29, 670, DateTimeKind.Utc).AddTicks(2646),
-                            Title = "Incredible Granite Mouse"
+                            PublicationDate = new DateTime(2025, 6, 21, 16, 44, 12, 987, DateTimeKind.Utc).AddTicks(6553),
+                            Title = "Handmade Fresh Chair"
                         },
                         new
                         {
-                            Id = new Guid("094ec9f7-717b-4faa-9add-6dc9969767e2"),
+                            Id = new Guid("8c7aa1db-63e4-4939-995f-314e9d0e103d"),
+                            Description = "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+                            PublicationDate = new DateTime(2025, 6, 21, 16, 44, 12, 987, DateTimeKind.Utc).AddTicks(6568),
+                            Title = "Incredible Concrete Computer"
+                        },
+                        new
+                        {
+                            Id = new Guid("b9a10894-3c72-4fd7-bccd-5fc79756ecd7"),
                             Description = "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-                            PublicationDate = new DateTime(2025, 1, 8, 9, 22, 29, 670, DateTimeKind.Utc).AddTicks(2656),
-                            Title = "Small Metal Shoes"
+                            PublicationDate = new DateTime(2025, 6, 21, 16, 44, 12, 987, DateTimeKind.Utc).AddTicks(6582),
+                            Title = "Practical Concrete Salad"
+                        },
+                        new
+                        {
+                            Id = new Guid("62888f55-78f3-4b06-9474-0fff99dfdf7a"),
+                            Description = "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+                            PublicationDate = new DateTime(2025, 6, 21, 16, 44, 12, 987, DateTimeKind.Utc).AddTicks(6596),
+                            Title = "Handmade Wooden Pizza"
+                        },
+                        new
+                        {
+                            Id = new Guid("e61ce275-9dc4-4ad9-8930-161dbd027ac9"),
+                            Description = "The Football Is Good For Training And Recreational Purposes",
+                            PublicationDate = new DateTime(2025, 6, 21, 16, 44, 12, 987, DateTimeKind.Utc).AddTicks(6665),
+                            Title = "Awesome Cotton Towels"
+                        },
+                        new
+                        {
+                            Id = new Guid("9b01b651-064c-4811-87ca-6542c2343699"),
+                            Description = "The Football Is Good For Training And Recreational Purposes",
+                            PublicationDate = new DateTime(2025, 6, 21, 16, 44, 12, 987, DateTimeKind.Utc).AddTicks(6679),
+                            Title = "Gorgeous Frozen Gloves"
+                        },
+                        new
+                        {
+                            Id = new Guid("f8a678b8-a5ee-4e37-b79a-3b9435310dc5"),
+                            Description = "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+                            PublicationDate = new DateTime(2025, 6, 21, 16, 44, 12, 987, DateTimeKind.Utc).AddTicks(6690),
+                            Title = "Licensed Soft Shoes"
+                        },
+                        new
+                        {
+                            Id = new Guid("bc1cc2da-08df-4b1f-883c-e43c2c0805aa"),
+                            Description = "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+                            PublicationDate = new DateTime(2025, 6, 21, 16, 44, 12, 987, DateTimeKind.Utc).AddTicks(6699),
+                            Title = "Rustic Rubber Bike"
                         });
                 });
 
             modelBuilder.Entity("MasterNet.Domain.CourseInstructor", b =>
                 {
-                    b.Property<Guid>("InstructorId")
+                    b.Property<Guid?>("InstructorId")
                         .HasColumnType("TEXT");
 
-                    b.Property<Guid>("CourseId")
+                    b.Property<Guid?>("CourseId")
                         .HasColumnType("TEXT");
 
                     b.HasKey("InstructorId", "CourseId");
@@ -122,10 +122,10 @@ namespace MasterNet.Persistence.Migrations
 
             modelBuilder.Entity("MasterNet.Domain.CoursePrice", b =>
                 {
-                    b.Property<Guid>("PriceId")
+                    b.Property<Guid?>("PriceId")
                         .HasColumnType("TEXT");
 
-                    b.Property<Guid>("CourseId")
+                    b.Property<Guid?>("CourseId")
                         .HasColumnType("TEXT");
 
                     b.HasKey("PriceId", "CourseId");
@@ -182,73 +182,73 @@ namespace MasterNet.Persistence.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("bb8afc3d-0636-4cfd-9e43-501e60305c29"),
-                            Grade = "Global Assurance Director",
-                            LastName = "Tillman",
-                            Name = "Clyde"
+                            Id = new Guid("33522ec1-c5ac-4891-b036-fe54e841cf49"),
+                            Grade = "Investor Program Director",
+                            LastName = "Schmitt",
+                            Name = "Mario"
                         },
                         new
                         {
-                            Id = new Guid("418dbe8b-9954-4634-bfaa-a2d35e78affc"),
-                            Grade = "Senior Security Associate",
-                            LastName = "Stiedemann",
-                            Name = "Percy"
+                            Id = new Guid("5f69b20a-3f42-4b67-a2ff-b14130039fe9"),
+                            Grade = "Senior Paradigm Representative",
+                            LastName = "Okuneva",
+                            Name = "Kristin"
                         },
                         new
                         {
-                            Id = new Guid("0a72ed3c-321f-4f14-b27e-7aded4d89c67"),
-                            Grade = "Direct Mobility Manager",
-                            LastName = "Ernser",
-                            Name = "Jamaal"
+                            Id = new Guid("a9d4d6c8-833d-4062-abf0-57bc814415d2"),
+                            Grade = "Internal Optimization Specialist",
+                            LastName = "Parisian",
+                            Name = "Pinkie"
                         },
                         new
                         {
-                            Id = new Guid("dea77a28-6631-4a6b-b811-9c9063ebfeb9"),
-                            Grade = "Human Assurance Manager",
-                            LastName = "O'Connell",
-                            Name = "Justine"
+                            Id = new Guid("801b2a76-a5ac-4559-893c-d7ade8bf3abd"),
+                            Grade = "Product Usability Strategist",
+                            LastName = "Stokes",
+                            Name = "Tod"
                         },
                         new
                         {
-                            Id = new Guid("5758dc76-0a36-4305-8791-4b729c74a2e4"),
-                            Grade = "Global Markets Coordinator",
-                            LastName = "Berge",
-                            Name = "Chanelle"
+                            Id = new Guid("5f2b7aa7-bd04-4968-aaa0-c348b45a911b"),
+                            Grade = "Product Operations Orchestrator",
+                            LastName = "Renner",
+                            Name = "Waino"
                         },
                         new
                         {
-                            Id = new Guid("4a5d5223-0497-4b1c-ab7a-96d7d5e79097"),
-                            Grade = "Human Accounts Liaison",
-                            LastName = "Haag",
-                            Name = "Bernard"
+                            Id = new Guid("5971a58d-0105-4a55-8ff1-ff5c5b7ad2cc"),
+                            Grade = "Principal Identity Specialist",
+                            LastName = "Kiehn",
+                            Name = "Stephania"
                         },
                         new
                         {
-                            Id = new Guid("980dd2c9-f7c0-4854-9473-9272fc1bb064"),
-                            Grade = "Senior Data Orchestrator",
-                            LastName = "Hermann",
-                            Name = "Adam"
+                            Id = new Guid("d21e6f49-6915-4d1c-969e-b96b824640f2"),
+                            Grade = "Human Implementation Supervisor",
+                            LastName = "Bailey",
+                            Name = "Marques"
                         },
                         new
                         {
-                            Id = new Guid("a505b4ba-c744-42a1-8f77-5cae59cdc682"),
-                            Grade = "Chief Identity Architect",
+                            Id = new Guid("086b6999-bc45-4301-a7ae-dbdac2fef302"),
+                            Grade = "Dynamic Tactics Representative",
+                            LastName = "Sawayn",
+                            Name = "Mose"
+                        },
+                        new
+                        {
+                            Id = new Guid("fee2f4bd-eca5-4309-9492-b72d172da57d"),
+                            Grade = "Human Creative Officer",
                             LastName = "Kertzmann",
-                            Name = "Sister"
+                            Name = "Jennifer"
                         },
                         new
                         {
-                            Id = new Guid("203ac93a-a3cb-4851-aed3-558ce0e7f0e7"),
-                            Grade = "Legacy Branding Developer",
-                            LastName = "Simonis",
-                            Name = "Abner"
-                        },
-                        new
-                        {
-                            Id = new Guid("d39325a6-68df-48f7-a1a1-aede66d00bfc"),
-                            Grade = "Global Mobility Developer",
-                            LastName = "Roberts",
-                            Name = "Ariane"
+                            Id = new Guid("025b2317-daaf-457e-add9-103979300b61"),
+                            Grade = "Dynamic Assurance Director",
+                            LastName = "Schmitt",
+                            Name = "Josie"
                         });
                 });
 
@@ -258,7 +258,8 @@ namespace MasterNet.Persistence.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("TEXT");
 
-                    b.Property<Guid>("CourseId")
+                    b.Property<Guid?>("CourseId")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Url")
@@ -296,7 +297,7 @@ namespace MasterNet.Persistence.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("9276886a-6b8d-4107-8849-fc5eca0221e8"),
+                            Id = new Guid("439b36a5-0f53-4fd0-a894-bce4418bd3f1"),
                             CurrentPrice = 10.0m,
                             Name = "Precio Regular",
                             PromotionalPrice = 8.0m
@@ -401,13 +402,13 @@ namespace MasterNet.Persistence.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "90079424-840d-4bf2-a927-a10b9b91ccac",
+                            Id = "7be52fc3-4ff7-48b8-a7cd-679e75324720",
                             Name = "ADMIN",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "b073edae-22a6-466c-9629-1873560c678b",
+                            Id = "d298c85c-a5a1-4846-b323-2a8f3d055b08",
                             Name = "CLIENT",
                             NormalizedName = "CLIENT"
                         });
@@ -441,98 +442,98 @@ namespace MasterNet.Persistence.Migrations
                             Id = 1,
                             ClaimType = "POLICES",
                             ClaimValue = "COURSE_READ",
-                            RoleId = "90079424-840d-4bf2-a927-a10b9b91ccac"
+                            RoleId = "7be52fc3-4ff7-48b8-a7cd-679e75324720"
                         },
                         new
                         {
                             Id = 2,
                             ClaimType = "POLICES",
                             ClaimValue = "COURSE_UPDATE",
-                            RoleId = "90079424-840d-4bf2-a927-a10b9b91ccac"
+                            RoleId = "7be52fc3-4ff7-48b8-a7cd-679e75324720"
                         },
                         new
                         {
                             Id = 3,
                             ClaimType = "POLICES",
                             ClaimValue = "COURSE_WRITE",
-                            RoleId = "90079424-840d-4bf2-a927-a10b9b91ccac"
+                            RoleId = "7be52fc3-4ff7-48b8-a7cd-679e75324720"
                         },
                         new
                         {
                             Id = 4,
                             ClaimType = "POLICES",
                             ClaimValue = "COURSE_DELETE",
-                            RoleId = "90079424-840d-4bf2-a927-a10b9b91ccac"
+                            RoleId = "7be52fc3-4ff7-48b8-a7cd-679e75324720"
                         },
                         new
                         {
                             Id = 5,
                             ClaimType = "POLICES",
                             ClaimValue = "INSTRUCTOR_CREATE",
-                            RoleId = "90079424-840d-4bf2-a927-a10b9b91ccac"
+                            RoleId = "7be52fc3-4ff7-48b8-a7cd-679e75324720"
                         },
                         new
                         {
                             Id = 6,
                             ClaimType = "POLICES",
                             ClaimValue = "INSTRUCTOR_READ",
-                            RoleId = "90079424-840d-4bf2-a927-a10b9b91ccac"
+                            RoleId = "7be52fc3-4ff7-48b8-a7cd-679e75324720"
                         },
                         new
                         {
                             Id = 7,
                             ClaimType = "POLICES",
                             ClaimValue = "INSTRUCTOR_UPDATE",
-                            RoleId = "90079424-840d-4bf2-a927-a10b9b91ccac"
+                            RoleId = "7be52fc3-4ff7-48b8-a7cd-679e75324720"
                         },
                         new
                         {
                             Id = 8,
                             ClaimType = "POLICES",
                             ClaimValue = "COMMENT_READ",
-                            RoleId = "90079424-840d-4bf2-a927-a10b9b91ccac"
+                            RoleId = "7be52fc3-4ff7-48b8-a7cd-679e75324720"
                         },
                         new
                         {
                             Id = 9,
                             ClaimType = "POLICES",
                             ClaimValue = "COMMENT_DELETE",
-                            RoleId = "90079424-840d-4bf2-a927-a10b9b91ccac"
+                            RoleId = "7be52fc3-4ff7-48b8-a7cd-679e75324720"
                         },
                         new
                         {
                             Id = 10,
                             ClaimType = "POLICES",
                             ClaimValue = "COMMENT_CREATE",
-                            RoleId = "90079424-840d-4bf2-a927-a10b9b91ccac"
+                            RoleId = "7be52fc3-4ff7-48b8-a7cd-679e75324720"
                         },
                         new
                         {
                             Id = 11,
                             ClaimType = "POLICES",
                             ClaimValue = "COURSE_READ",
-                            RoleId = "b073edae-22a6-466c-9629-1873560c678b"
+                            RoleId = "d298c85c-a5a1-4846-b323-2a8f3d055b08"
                         },
                         new
                         {
                             Id = 12,
                             ClaimType = "POLICES",
                             ClaimValue = "INSTRUCTOR_READ",
-                            RoleId = "90079424-840d-4bf2-a927-a10b9b91ccac"
+                            RoleId = "7be52fc3-4ff7-48b8-a7cd-679e75324720"
                         },
                         new
                         {
                             Id = 13,
                             ClaimType = "POLICES",
                             ClaimValue = "COMMENT_READ",
-                            RoleId = "90079424-840d-4bf2-a927-a10b9b91ccac"
+                            RoleId = "7be52fc3-4ff7-48b8-a7cd-679e75324720"
                         },
                         new
                         {
                             Id = 14,
                             ClaimType = "POLICES",
                             ClaimValue = "COMMENT_CREATE",
-                            RoleId = "90079424-840d-4bf2-a927-a10b9b91ccac"
+                            RoleId = "7be52fc3-4ff7-48b8-a7cd-679e75324720"
                         });
                 });
 

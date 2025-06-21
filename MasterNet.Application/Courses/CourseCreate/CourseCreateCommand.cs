@@ -6,7 +6,7 @@ namespace MasterNet.Application.Courses.CourseCreate;
 
 public class CourseCreateCommand
 {
-    public record CourseCreateCommandRequest(CourseCreateRequest courseCreateRequest) : IRequest<Guid>;
+    public record CourseCreateCommandRequest(CourseCreateRequest CourseCreateRequest) : IRequest<Guid>;
 
     internal class CourseCreateCommandHandler
         : IRequestHandler<CourseCreateCommandRequest, Guid>
@@ -26,9 +26,9 @@ public class CourseCreateCommand
             var course = new Course
             {
                 Id = new Guid(),
-                Title = request.courseCreateRequest.Title,
-                Description = request.courseCreateRequest.Description,
-                PublicationDate = request.courseCreateRequest.DatePublication,
+                Title = request.CourseCreateRequest.Title,
+                Description = request.CourseCreateRequest.Description,
+                PublicationDate = request.CourseCreateRequest.DatePublication,
             };
 
             _masterNetDbContext.Add(course);
